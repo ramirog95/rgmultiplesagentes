@@ -1,0 +1,51 @@
+#whatsapp-floating-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 999;
+}
+
+#whatsapp-button {
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#whatsapp-button:focus{
+    outline: none !important;
+}
+
+#whatsapp-button img {
+    width: 100%;
+    height: 100%;
+}
+
+#whatsapp-agentes-list {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    right: 0;
+    bottom: 70px;
+    width: 300px;
+}
+
+#whatsapp-agentes-list ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+#whatsapp-agentes-list li {
+    margin: 10px 0;
+}
+
+#whatsapp-agentes-list a {
+    text-decoration: none;
+    color: #25d366;
+    font-weight: bold;
+}

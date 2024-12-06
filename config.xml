@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>rgmultiplesagentes</name>
+    <displayName>WPP Multiples Agentes</displayName>
+    <version>1.0.0</version>
+    <description>Módulo para agregar un botón de WhatsApp flotante y gestionar distintos agentes.</description>
+    <author>Ramiro Grabinski</author>
+    <tab>front_office_features</tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+    <ps_versions_compat>^8.0.0</ps_versions_compat>
+
+    <hooks>
+        <hook name="displayHeader"/>
+    </hooks>
+</module>
