@@ -7,6 +7,7 @@
             {foreach from=$agentes item=agente}
                 <li>
                     <a href="https://wa.me/+549{$agente.telefono|escape:'html':'UTF-8'}?text=Hola%20{$agente.nombre|escape:'html':'UTF-8'},%20tengo%20consulta%20relacionada%20al%20área%20de%20{$agente.categoria|escape:'html':'UTF-8'}" target="_blank">
+                        <img src="/img/{$agente.imagen|escape:'html':'UTF-8'}" alt="{$agente.nombre|escape:'html':'UTF-8'}" class="profile-pic" width="50">
                         {$agente.nombre|escape:'html':'UTF-8'} - {$agente.categoria|escape:'html':'UTF-8'}
                     </a>
                 </li>

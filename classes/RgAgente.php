@@ -6,6 +6,7 @@ class RgAgente extends ObjectModel
     public $nombre;
     public $telefono;
     public $categoria;
+    public $imagen;
 
     public static $definition = [
         'table' => 'rg_agentes',
@@ -14,6 +15,7 @@ class RgAgente extends ObjectModel
             'nombre' => ['type' => self::TYPE_STRING, 'validate' => 'isString', 'required' => true, 'size' => 255],
             'telefono' => ['type' => self::TYPE_STRING, 'validate' => 'isString', 'required' => true, 'size' => 20],
             'categoria' => ['type' => self::TYPE_STRING, 'validate' => 'isString', 'required' => true, 'size' => 255],
+            'imagen' => ['type' => self::TYPE_STRING, 'validate' => 'isString', 'size' => 255],
         ],
     ];
 

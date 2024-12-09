@@ -70,6 +70,7 @@ class RgMultiplesAgentes extends Module
             `nombre` VARCHAR(255) NOT NULL,
             `telefono` VARCHAR(20) NOT NULL,
             `categoria` VARCHAR(255) NOT NULL,
+            `imagen` VARCHAR(255) NOT NULL,
             PRIMARY KEY (`id_agente`)
         ) ENGINE=' . _MYSQL_ENGINE_ . ' DEFAULT CHARSET=utf8;';
 

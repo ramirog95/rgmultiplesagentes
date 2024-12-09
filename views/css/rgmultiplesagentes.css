@@ -49,3 +49,7 @@
     color: #25d366;
     font-weight: bold;
 }
+
+#whatsapp-agentes-list .profile-pic {
+    margin-right: 0.8rem;
+}
